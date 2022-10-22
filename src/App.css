@@ -1,18 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app {
+  background-color: lightsalmon;
+  position: absolute;
+  top: -0;
+  left: -0;
+  height: 100%;
+  width: 100%;
 }
 
 .content{
-  margin: 10px;
+  margin:15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+button {
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+button:disabled{
+  background-color: red;
+}
+
+button:enabled{
+  background-color: dodgerblue;
+}
+
+button:hover:enabled{
+  opacity: 70%;
+}
+
+.data{
+  width: 50%;
+}
+.data-unordered-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.data-button{
+  width: 25%;
+}
+
+.search{
+  width: 50%;
+}
+
+.search-input{
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: floralwhite;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.search-input:hover{
+  opacity: 90%;
+}
+
+.search-info-h3{
+  width: 80%;
+  font-size: 16px;
+}
+
+.search-display{
+  margin-left: 2.5em;
+}
+

@@ -12,16 +12,11 @@ function App() {
   }
  */
   return (
-    <div className="content">
-      <h3>Lord of the rings api</h3>
-      <LotrBook></LotrBook>
-
-{/*       <input type="text" name="chap" onChange={e => setChap(e.target.value)}/>
-      <button onClick={PrintValue}>Search</button> */}
-      {/* <p>Books:
-        <LotrBook id="5cf58077b53e011a64671583" chap="1"/>
-      </p> */}
-{/*       <p name="data">{data}</p> */}
+    <div className="app">
+      <div className="content">
+        <h1>Lord of the rings api</h1>
+        <LotrBook></LotrBook>
+      </div>
     </div>
   );
 }

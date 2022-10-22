@@ -61,7 +61,7 @@ export default function LotrBook(){
                 <div className="search">
                     <h3 className="search-info-h3">Click the book that you want to search, enter the chapter number, and hit "Search"</h3>
                     <div className="search-display">
-                        <input type="text" name="chap" onChange={e => setChapNumber(e.target.value)} className="search-input"/>
+                        <input type="text" onChange={e => setChapNumber(e.target.value)} className="search-input"/>
                         <button onClick={() => getChapter(bookId)} disabled={chapNumber === null || bookId === null}>Search</button>
                         <h3 disabled={chapter === null}>{chapter}</h3>
                     </div>
